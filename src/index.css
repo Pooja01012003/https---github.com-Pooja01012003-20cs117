@@ -11,3 +11,133 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.single-train {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.single-train h3 {
+  margin-bottom: 10px;
+}
+
+
+.error-message {
+  color: red;
+  font-style: italic;
+}
+
+.train-list-container {
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* Add this CSS to your stylesheets or CSS file */
+.single-train-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.single-train-content {
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.single-train-content h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.single-train-content p {
+  margin-top: 5px;
+  color: #666;
+}
+
+.single-train-content p:first-of-type {
+  font-weight: bold;
+}
+
+.single-train-content p:last-of-type {
+  margin-bottom: 0;
+}
+
+.single-train-content a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  margin-top: 15px;
+}
+
+.single-train-content a:hover {
+  text-decoration: underline;
+}
+
+
+
+
